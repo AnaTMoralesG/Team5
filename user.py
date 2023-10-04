@@ -32,7 +32,7 @@ class User:
         else:
             print("El reporte no ha sido encontrado")
 
-class Agente_del_gobierno(User):
+class Agente_del_gobierno:
     def __init__(self, nombre, apellido, password, tipo_usuario):
         super().__init__(nombre, apellido, password, tipo_usuario)
 

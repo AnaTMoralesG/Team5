@@ -19,7 +19,7 @@ User.crear_reporte("Basura acumulada", "En la ultima semana el camión de la bas
 
 def menu_principal():
     print("\n-- Menú Principal --")
-    print("1. Iniciar Sesión")0
+    print("1. Iniciar Sesión")
     
     print("2. Registrarse")
     print("3. Salir")

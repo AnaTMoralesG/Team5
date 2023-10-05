@@ -1,18 +1,24 @@
 # Definimos la clase User
 class User:
+
+    contador_id = 0
+
     def __init__(self, nombre, apellido, password, tipo_usuario):
+        User.contador_id += 1
+
+        self.id = User.contador_id
+        
         self.nombre = nombre
         self.apellido = apellido
         self.password = password
         self.tipo_usuario = tipo_usuario
-       
 
 usuarios = {}  # Diccionario para almacenar los usuarios registrados
 
 # Definimos la clase Agente_del_gobierno
 class Agente_del_gobierno(User):
     def __init__(self, nombre, apellido, password, tipo_usuario):
-     super().__init__(nombre, apellido, password, tipo_usuario)
+        super().__init__(nombre, apellido, password, tipo_usuario)
 
 # Logica para realizar el registro de usuarios si escogen la opción 2
 def registrar_usuario():

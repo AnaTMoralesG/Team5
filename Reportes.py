@@ -1,5 +1,14 @@
 class Reporte:
+
+    contador_id = 0
+
     def __init__(self, nombre_del_reporte, detalles, evidencias, categorias):
+        
+        Reporte.contador_id += 1
+        
+        self.id = Reporte.contador_id
+        print(f"{Reporte.id}")
+
         self.nombre_del_reporte = nombre_del_reporte
         self.detalles = detalles
         self.evidencias = evidencias

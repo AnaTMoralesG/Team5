@@ -1,5 +1,12 @@
 class Categorias:
+
+    contador_id = 0
+
     def _init_(self):
+        Categorias.contador_id += 1
+
+        self.id = Categorias.contador_id
+
         self.opcion = 0
 
     def mostrar_categorias(self):

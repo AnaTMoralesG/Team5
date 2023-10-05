@@ -1,7 +1,13 @@
 from categories import Categorias  # Importa la clase Categorias desde el archivo categorias.py
 
 class Busqueda:
+
+    contador_id = 0
+
     def _init_(self):
+        Busqueda.contador_id += 1
+
+        self.id = Busqueda.contador_id
         self.categorias = Categorias()
 
     def seleccionar_categoria(self):

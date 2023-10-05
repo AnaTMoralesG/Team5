@@ -1,3 +1,5 @@
+from Ubicacion import Ubicacion
+
 class Reporte:
 
     contador_id = 0
@@ -13,6 +15,7 @@ class Reporte:
         self.detalles = detalles
         self.evidencias = evidencias
         self.categorias = categorias
+        self.Ubicacion = Ubicacion()
 
 reporte = {} # biblioteca
 # se despliega la logica para crear el reporte que luego se importara en Main.py

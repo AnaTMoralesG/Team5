@@ -4,10 +4,8 @@ class Ubicacion:
 
     def __init__(self, id_ubicacion, coordenadas, nombre_lugar):
         Ubicacion.contador_id += 1
-
-        self.id = Ubicacion.contador_id
         
-        self.id_ubicacion = id_ubicacion
+        self.id = Ubicacion.contador_id
         self.coordenadas = coordenadas
         self.nombre_lugar = nombre_lugar
 

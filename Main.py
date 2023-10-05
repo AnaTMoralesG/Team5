@@ -1,7 +1,7 @@
 from Usuarios import User, usuarios, iniciar_sesion, registrar_usuario, registrar_agente_del_gobierno, visualizar_usuarios
 from Reportes import Reporte, reporte, visualizar_reporte, crear_reporte, eliminar_reporte
 from Categorias import Categorias, categorias
-from Buscar import buscar
+from Buscar import Busqueda
 from Notificaciones import notificaciones
 from Ubicacion import Ubicacion
 # Define una variable global para almacenar el usuario actualmente en sesión
@@ -95,5 +95,5 @@ def menu_agente_gobierno():
 #Falta las notificaciones
 #Falta buscar no funciono el codigo 
 #falta lograr que la ubicacion se quede grabada en el reporte
-#falta que labusqueda funcione por categorias o nombre de 
+#falta que la busqueda funcione por categorias o nombre de 
 #falta que el ID me lo genere en automatico y no que sea manual para ciudadanos,agentes,reportes,categorias y notificaciones

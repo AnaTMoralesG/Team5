@@ -1,4 +1,6 @@
 from Ubicacion import Ubicacion
+from Ubicacion import coordenadas
+from Ubicacion import nombre_lugar
 
 class Reporte:
 
@@ -9,13 +11,12 @@ class Reporte:
         Reporte.contador_id += 1
         
         self.id = Reporte.contador_id
-        print(f"{Reporte.id}")
 
         self.nombre_del_reporte = nombre_del_reporte
         self.detalles = detalles
         self.evidencias = evidencias
         self.categorias = categorias
-        self.Ubicacion = Ubicacion()
+        self.Ubicacion = Ubicacion(coordenadas, nombre_lugar)
 
 reporte = {} # biblioteca
 # se despliega la logica para crear el reporte que luego se importara en Main.py

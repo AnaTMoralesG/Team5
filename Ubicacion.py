@@ -13,5 +13,3 @@ class Ubicacion:
         print(f"Nombre del lugar: {self.nombre_lugar}")
 
         print(f"Coordenadas de la ubicación: {self.coordenadas}")
-
-        print(f"Coordenadas de la ubicación: {self.coordenadas}")

@@ -19,7 +19,8 @@ if __name__ == "__main__":
         if eleccion == "1":
             iniciar_sesion()
             if usuario_actual:
-            mostrar_menu_segun_rol()
+            # mostrar_menu_segun_rol()
+                pass
         elif eleccion == "2":
             registrar_usuario()
         elif eleccion == "3":

@@ -1,12 +1,10 @@
 from Ubicacion import Ubicacion
-from Ubicacion import coordenadas
-from Ubicacion import nombre_lugar
 
 class Reporte:
 
     contador_id = 0
 
-    def __init__(self, nombre_del_reporte, detalles, evidencias, categorias):
+    def __init__(self, nombre_del_reporte, detalles, evidencias, categorias, coordenadas, nombre_lugar):
         
         Reporte.contador_id += 1
         
